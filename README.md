@@ -1,4 +1,6 @@
-## Linux File and Directory Management Lab
+## Creating, Modifying and Removing Files and Folders in Linux
+
+---
 
 ### Overview
 
@@ -51,8 +53,9 @@ Hands-on Linux File and Directory Management Lab
 Linux
 
 ---
+---
 
-## 1. Linux File System Overview
+### 1. Linux File System Overview
 
 Linux organizes files and directories in a tree-like structure that begins at the root directory `/`.
 
@@ -80,7 +83,7 @@ Europe\ Pictures
 
 ---
 
-## 2. Linux Navigation Commands
+### 2. Linux Navigation Commands
 
 **`ls`**
 
@@ -127,7 +130,7 @@ Displays large files in a scrollable view.
 
 ---
 
-## 3. Creating Directories
+### 3. Creating Directories
 
 Linux uses the `mkdir` command to create directories.
 
@@ -148,7 +151,7 @@ mkdir dir1 dir2 dir3
 
 ---
 
-### Lab Example
+#### Lab Example
 
 Navigate to the Documents directory:
 
@@ -195,7 +198,7 @@ Hidden  blue  green  magenta  red  yellow
 
 ---
 
-## 4. Removing Empty Directories
+### 4. Removing Empty Directories
 
 **The `rmdir` command removes empty directories.**
 
@@ -214,7 +217,7 @@ rmdir dir1 dir2 dir3
 
 ---
 
-## 5. Creating Files
+### 5. Creating Files
 
 The `touch` command can create an empty file.
 
@@ -227,7 +230,7 @@ touch empty_file
 
 ---
 
-## 6. Copying Files and Directories
+### 6. Copying Files and Directories
 
 The `cp` command is used to copy files or directories.
 
@@ -239,7 +242,7 @@ cp source target
 
 ---
 
-## 7. Moving and Renaming Files
+### 7. Moving and Renaming Files
 
 The `mv` command can be used to:
 
@@ -250,7 +253,7 @@ The `mv` command can be used to:
 
 ---
 
-## 8. Working with Spaces in File Names & Moving Files to the Current Directory
+### 8. Working with Spaces in File Names & Moving Files to the Current Directory
 
 Linux requires special handling when a file or directory name contains spaces.
 
@@ -270,7 +273,7 @@ mv Europe\ Pictures /home/user/Pictures
 
 ---
 
-## 9. Deleting Files
+### 9. Deleting Files
 
 The `rm` command removes files.
 
@@ -280,7 +283,7 @@ rm Classical
 
 ---
 
-## 10. Deleting Directories
+### 10. Deleting Directories
 
 To remove an empty directory:
 
@@ -290,7 +293,7 @@ rmdir Rock
 
 ---
 
-## 11. Practical File Management Exercise
+### 11. Practical File Management Exercise
 
 The lab included a practical exercise involving the `Music` directory.
 
@@ -328,7 +331,7 @@ rmdir Rock
 
 ---
 
-## 12. Moving Hidden Files
+### 12. Moving Hidden Files
 
 Linux hidden files usually begin with a period:
 
@@ -361,7 +364,7 @@ mv .apple .banana .broccoli .milk /home/user/Documents/Hidden
 
 ---
 
-## 13. Searching Inside Files with `grep`
+### 13. Searching Inside Files with `grep`
 
 `grep` is used to search files for matching text or patterns.
 
@@ -394,8 +397,9 @@ mv /home/user/Downloads/Iceland /home/user/Downloads/Japan /home/user/Documents
 ![grep](https://i.imgur.com/xbgnzCi.png)
 
 ---
+---
 
-## 14. Commands Cheat Sheet
+### Commands Cheat Sheet
 
 | Command | Purpose                          |
 | ------- | -------------------------------- |
@@ -417,8 +421,9 @@ mv /home/user/Downloads/Iceland /home/user/Downloads/Japan /home/user/Documents
 | `nano`  | Edit files                       |
 
 ---
+---
 
-## 15. IT Support Relevance
+### IT Support Relevance
 
 These Linux file-management skills are useful for IT Support Specialists because technicians frequently work with:
 
@@ -450,8 +455,9 @@ Troubleshoot if necessary
 ```
 
 ---
+---
 
-## 16. Cybersecurity Relevance
+### Cybersecurity Relevance
 
 Linux file-management skills are also important in cybersecurity.
 
@@ -479,8 +485,9 @@ less
 can be useful when investigating files and system activity.
 
 ---
+---
 
-## 17. Troubleshooting Scenario
+### Troubleshooting Scenario
 
 #### Scenario
 
@@ -511,8 +518,9 @@ Review the results and identify the file containing the matching text.
 This demonstrates how command-line tools can help locate information quickly.
 
 ---
+---
 
-## 18. Skills Demonstrated
+### Skills Demonstrated
 
 #### Linux Command Line
 
